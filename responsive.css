@@ -1,0 +1,111 @@
+@media only screen and (max-width:1024px)
+{
+	
+	.row{
+		
+		margin:0 15px;
+	}
+	.main-nav{
+		
+		display:none;
+	}
+	.mobile-menu span{
+		display:block;
+		
+		
+	}
+	html{
+		
+		font-size:8px;
+	}
+	.clint-photo{
+		
+		width:100%;float:none;
+	}
+	.clint-review{
+		
+		width:100%;float:none;text-align:center;
+	}
+}
+@media only screen and (max-width:980px)
+{
+	
+	.span_1_of_4{
+		
+		width:49.2%;
+		
+	}
+	.span_1_of_4:nth-child(3){
+		
+		margin-left:0px;
+		
+		
+	}
+		html{
+			
+			font-size:10px;
+		}
+	}
+	
+	
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px)
+{
+	
+	.row{
+		
+		margin:0 15px;
+	}
+	.bm{
+		
+		width:300px;
+	}
+	
+	
+}
+
+@media only screen and (max-width:480px)
+{
+	
+	.span_1_of_4{
+		
+		width:100%;
+	}
+	
+	.bm{
+		
+		width:300px;margin-left:15%;
+	}
+	
+}
+
+@media only screen and (max-width:375px)
+
+{
+	
+	 h1{
+		
+		font-size:5px;height:300px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

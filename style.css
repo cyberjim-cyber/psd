@@ -1,0 +1,218 @@
+*{
+	
+	margin:o;padding:0;box-sizing:border-box;
+}
+* ul li{
+	
+	list-style-type:none;
+}
+html{
+	
+	font-size:10px;
+}
+/*reuseable component*/
+.row{
+	
+	max-width:110rem;margin:0 10px;
+}
+/*header section*/
+header{
+	
+	background-image:linear-gradient(rgb(135,80,156,.6),rgb(135,80,156,.6)),url('D:\psd.new/L2a0ARF.jpg');height:85vh;position:relative;
+	background-size:cover;
+}
+.logo{
+	height:35%;width:auto;margin-top:3.5rem;float:left;
+	
+}
+.main-nav{
+	
+	float:right;
+}
+.main-nav li{
+	
+	display:inline-block;margin-top:4rem;margin-left:1.4rem;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	color:#fff;
+	text-decoration:none;text-transform:uppercase;background-color:#643a79;display:inline-block;
+	font-size:1.6rem;
+}
+.main-nav li a:hover{
+	
+	background-color:blue;
+}
+.active{
+	
+	background-image:red;
+}
+
+.main-nav li:first-child{
+	
+	margin-left:0px;
+}
+
+.hero{
+	
+	
+	position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;
+}
+
+.hero h1{
+	
+	font-size:4rem;
+}
+
+.btn:link{
+	
+	background-color:#eb7d4b;color:white;text-decoration:none;text-transform:uppercase;padding:1.5rem 6rem;border-radius:.5rem;display:inline-block;font-size:2.1rem;
+}
+
+.services-section{
+	
+	text-align:center;padding:8rem 0;overflow:hidden;color:white;background-image: linear-gradient(rgb(23,194,164,.7 ),rgb(23,194,164,.7)),url('D:\psd.new/EdAGGFS.jpg');background-size:cover;background-position:center top;
+}
+
+h3{
+	
+	font-size:2.4rem;
+}
+.branding{
+	
+	font-size:1.8rem;
+}
+
+h2{
+	
+	font-size:4rem;font-weight:550;
+	
+
+}
+.description{
+	
+	font-size:1.8rem;
+}
+h2::after{
+	
+	
+	content:"";
+	display:block;background-color:white;height:.4rem; width:8.5rem;margin:auto;
+}
+
+.team-section{
+	
+	overflow:hidden;text-align:center;background-color:#dbe7ef;
+}
+.team-member{
+	
+	width:20rem;height:20rem;border-radius:50%;
+}
+
+.little{
+	
+	font-size:19px;
+}
+
+.role{
+	
+	font-size:1.6rem;
+}
+.des{
+	
+	
+	font-size:1.6rem;
+}
+.two {
+	
+	margin-left:0px;
+}
+#protfolio{
+background-image: url('D:\psd.new/p.jpg');
+	overflow:hidden;text-align:center;
+}
+.p-img{
+	
+	height:auto;width:100%;
+}
+.all{
+	
+	background-color:red;color:white;padding:11px;margin-left:8px;border-radius:6px;
+}
+.clint{
+	
+	width:10rem;height:10rem;margin-left:0px;border-radius:50%;
+}
+ .bd{
+	margin-left:0px;
+	
+}
+.test{
+	
+	background-image: url('D:\psd.new/90508.jpg');overflow:hidden;text-align:center;color:white;background-size:cover;padding:30px 0px;
+}
+.cp{
+	
+	font-size:15px;
+}
+.clint-photo{
+	
+	width:100px;float:left;
+}
+.clint-review{
+	
+	width:330px;
+}
+  .contact{
+	  
+	  background-color:#3c5499;text-align:center;color:white;overflow:hidden;
+  }
+  .contact h2::after{
+	  
+	  background-color:black;
+  }
+.contact form{
+	
+	margin-top:5rem;width:70%;margin-left:15%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea{
+	background-color:#273a71;border:1px solid red;width:100%;
+	padding:15px;border-radius:6px;font-size:1.8rem;
+}
+.contact form :::placeholder{
+	color:white;opacity:1;
+	
+}
+.btn{
+	
+	background-color:red;padding:10px 18px;margin:10px 0px;border-radius:5px;font-size:20px;
+}
+
+.contact textarea{
+	
+	height:200px;
+}
+.sticky{
+	
+	
+	position:fixed;
+}
+
+.bm{
+	
+	width:850px;
+}
+.mobile-menu span{
+	color:white;font-size:40px;float:right;margin-top:20px;
+	display:none;
+}
+
+
+
+
+
+
+
+
